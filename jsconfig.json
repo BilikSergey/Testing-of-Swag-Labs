@@ -1,0 +1,10 @@
+{
+    "type": "module",
+    "compilerOptions": {
+        "lib": ["ES2022", "DOM"],
+        "types": ["node", "@wdio/globals/types", "@wdio/mocha-framework", "expect-webdriverio"],
+        "target": "ES2022",
+        "module": "ES2022",
+        "moduleResolution": "Node",
+    }
+}
