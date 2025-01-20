@@ -6,7 +6,7 @@ describe("My Login application", () => {
   let login;
 
   before(() => {
-      login = new Login(); // Initialize the Login class
+      login = new Login();
   });
 
   it("Valid Login", async () => {
@@ -285,6 +285,7 @@ describe("My Login application", () => {
     const shoppingCartLink = $('//a[@class = "shopping_cart_link"]');
     const inventory_item = $('//div[@data-test = "inventory-item"]');
     const buttonCheckout = $("#checkout");
+    const entirePage = $("#root");
 
     await shoppingCartLink.click();
     await expect(browser).toHaveUrl("https://www.saucedemo.com/cart.html");
@@ -294,6 +295,6 @@ describe("My Login application", () => {
     await expect(browser).toHaveUrl(
       "https://www.saucedemo.com/checkout-step-one.html"
     );
-    await expect($("#root")).toContain("Cart is empty");
+    await expect(entirePage).toHaveText(expect.stringContaining("Cart is empty"))
   });
 });
