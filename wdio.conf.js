@@ -2,7 +2,7 @@ import { TimelineService } from 'wdio-timeline-reporter/timeline-service.js';
 export const config = {
     //
     // ====================
-    // Runner Configuration
+    // Runner featureFlags:
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
