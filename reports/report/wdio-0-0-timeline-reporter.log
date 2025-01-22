@@ -1,17 +1,17 @@
 {
-  "start": "2025-01-20T11:11:14.457Z",
-  "end": "2025-01-20T11:11:39.743Z",
+  "start": "2025-01-22T20:38:47.648Z",
+  "end": "2025-01-22T20:39:10.553Z",
   "capabilities": {
     "acceptInsecureCerts": false,
     "browserName": "chrome",
     "browserVersion": "131.0.6778.265",
     "chrome": {
       "chromedriverVersion": "131.0.6778.265 (52de4bc8cd46eefa5be2eff17f608b0d30b754ef-refs/branch-heads/6778@{#4324})",
-      "userDataDir": "C:\\Users\\bilik\\AppData\\Local\\Temp\\scoped_dir4648_371634295"
+      "userDataDir": "C:\\Users\\bilik\\AppData\\Local\\Temp\\scoped_dir18620_543597987"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:51187"
+      "debuggerAddress": "localhost:52550"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -25,138 +25,194 @@
       "script": 30000
     },
     "unhandledPromptBehavior": "ignore",
-    "webSocketUrl": "ws://localhost:51181/session/a741ca92c1bb07a55b81bcb17c19b449",
+    "webSocketUrl": "ws://localhost:52545/session/b36095df1023e5e08af46ec731341621",
     "webauthn:extension:credBlob": true,
     "webauthn:extension:largeBlob": true,
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "wdio:driverPID": 4648,
-    "sessionId": "a741ca92c1bb07a55b81bcb17c19b449"
+    "wdio:driverPID": 18620,
+    "sessionId": "b36095df1023e5e08af46ec731341621"
   },
   "host": "localhost",
-  "port": 51181,
+  "port": 52545,
   "framework": "mocha",
   "mochaOpts": {
     "timeout": 60000,
     "ui": "bdd"
   },
-  "duration": 25286,
+  "duration": 22905,
   "suites": [
     {
       "title": "My Login application",
-      "duration": 25144,
-      "start": "2025-01-20T11:11:14.460Z",
-      "end": "2025-01-20T11:11:39.604Z",
+      "duration": 22771,
+      "start": "2025-01-22T20:38:47.652Z",
+      "end": "2025-01-22T20:39:10.423Z",
       "tests": [
         {
           "title": "Valid Login",
-          "start": "2025-01-20T11:11:14.463Z",
-          "end": "2025-01-20T11:11:15.430Z",
-          "duration": 967,
+          "start": "2025-01-22T20:38:47.652Z",
+          "end": "2025-01-22T20:38:48.588Z",
+          "duration": 936,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Login with invalid password",
-          "start": "2025-01-20T11:11:15.430Z",
-          "end": "2025-01-20T11:11:16.058Z",
-          "duration": 628,
+          "start": "2025-01-22T20:38:48.588Z",
+          "end": "2025-01-22T20:38:49.048Z",
+          "duration": 460,
           "state": "passed",
           "screenshots": [
-            "D:\\Work\\forLQ\\reports\\report\\file-1737371475545.jpeg"
+            "D:\\Work\\Testing-of-Swag-Labs\\reports\\report\\file-1737578328653.jpeg"
           ]
         },
         {
           "title": "Login with invalid login",
-          "start": "2025-01-20T11:11:16.058Z",
-          "end": "2025-01-20T11:11:16.531Z",
-          "duration": 473,
+          "start": "2025-01-22T20:38:49.048Z",
+          "end": "2025-01-22T20:38:49.566Z",
+          "duration": 518,
           "state": "passed",
           "screenshots": [
-            "D:\\Work\\forLQ\\reports\\report\\file-1737371476131.jpeg"
+            "D:\\Work\\Testing-of-Swag-Labs\\reports\\report\\file-1737578329103.jpeg"
           ]
         },
         {
           "title": "Logout",
-          "start": "2025-01-20T11:11:16.531Z",
-          "end": "2025-01-20T11:11:17.233Z",
-          "duration": 702,
+          "start": "2025-01-22T20:38:49.567Z",
+          "end": "2025-01-22T20:38:50.111Z",
+          "duration": 544,
           "state": "passed",
           "screenshots": [
-            "D:\\Work\\forLQ\\reports\\report\\file-1737371476620.jpeg"
+            "D:\\Work\\Testing-of-Swag-Labs\\reports\\report\\file-1737578329630.jpeg"
           ]
         },
         {
           "title": "Saving the card after logout",
-          "start": "2025-01-20T11:11:17.234Z",
-          "end": "2025-01-20T11:11:18.340Z",
-          "duration": 1106,
+          "start": "2025-01-22T20:38:50.111Z",
+          "end": "2025-01-22T20:38:51.031Z",
+          "duration": 920,
           "state": "passed",
           "screenshots": [
-            "D:\\Work\\forLQ\\reports\\report\\file-1737371477316.jpeg"
+            "D:\\Work\\Testing-of-Swag-Labs\\reports\\report\\file-1737578330160.jpeg"
           ]
         },
         {
           "title": "Sorting",
-          "start": "2025-01-20T11:11:18.340Z",
-          "end": "2025-01-20T11:11:19.078Z",
-          "duration": 738,
+          "start": "2025-01-22T20:38:51.032Z",
+          "end": "2025-01-22T20:38:51.612Z",
+          "duration": 580,
           "state": "passed",
           "screenshots": [
-            "D:\\Work\\forLQ\\reports\\report\\file-1737371478442.jpeg"
+            "D:\\Work\\Testing-of-Swag-Labs\\reports\\report\\file-1737578331087.jpeg"
           ]
         },
         {
           "title": "Footer Links",
-          "start": "2025-01-20T11:11:19.078Z",
-          "end": "2025-01-20T11:11:26.742Z",
-          "duration": 7664,
+          "start": "2025-01-22T20:38:51.613Z",
+          "end": "2025-01-22T20:38:58.405Z",
+          "duration": 6792,
           "state": "passed",
           "screenshots": [
-            "D:\\Work\\forLQ\\reports\\report\\file-1737371479160.jpeg"
+            "D:\\Work\\Testing-of-Swag-Labs\\reports\\report\\file-1737578331689.jpeg"
           ]
         },
         {
           "title": "Valid Checkout",
-          "start": "2025-01-20T11:11:26.743Z",
-          "end": "2025-01-20T11:11:28.533Z",
-          "duration": 1790,
+          "start": "2025-01-22T20:38:58.405Z",
+          "end": "2025-01-22T20:38:59.504Z",
+          "duration": 1099,
           "state": "passed",
           "screenshots": [
-            "D:\\Work\\forLQ\\reports\\report\\file-1737371486846.jpeg"
+            "D:\\Work\\Testing-of-Swag-Labs\\reports\\report\\file-1737578338469.jpeg"
           ]
         },
         {
           "title": "Checkout without products",
-          "start": "2025-01-20T11:11:28.533Z",
-          "end": "2025-01-20T11:11:39.602Z",
-          "duration": 11069,
+          "start": "2025-01-22T20:38:59.505Z",
+          "end": "2025-01-22T20:39:10.421Z",
+          "duration": 10916,
           "state": "failed",
           "screenshots": [
-            "D:\\Work\\forLQ\\reports\\report\\file-1737371488645.jpeg",
-            "D:\\Work\\forLQ\\reports\\report\\file-1737371499680.jpeg"
+            "D:\\Work\\Testing-of-Swag-Labs\\reports\\report\\file-1737578339564.jpeg",
+            "D:\\Work\\Testing-of-Swag-Labs\\reports\\report\\file-1737578350471.jpeg"
           ],
           "error": {
             "type": "Error",
             "message": "Expect  to have text\n\nExpected: \u001b[32mStringContaining \"Cart is empty\"\u001b[39m\nReceived: \u001b[31m\"Open Menu\u001b[39m\n\u001b[31mSwag Labs\u001b[39m\n\u001b[31mCheckout: Your Information\u001b[39m\n\u001b[31mCancel\u001b[39m\n\u001b[31mTwitter\u001b[39m\n\u001b[31mFacebook\u001b[39m\n\u001b[31mLinkedIn\u001b[39m\n\u001b[31m© 2025 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy\"\u001b[39m",
-            "stack": "Error: Expect  to have text\n\nExpected: \u001b[32mStringContaining \"Cart is empty\"\u001b[39m\nReceived: \u001b[31m\"Open Menu\u001b[39m\n\u001b[31mSwag Labs\u001b[39m\n\u001b[31mCheckout: Your Information\u001b[39m\n\u001b[31mCancel\u001b[39m\n\u001b[31mTwitter\u001b[39m\n\u001b[31mFacebook\u001b[39m\n\u001b[31mLinkedIn\u001b[39m\n\u001b[31m© 2025 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy\"\u001b[39m\n    at Context.<anonymous> (file:///D:/Work/forLQ/test/specs/taskOne.js:299:30)\n    at Context.executeAsync (D:\\Work\\forLQ\\node_modules\\@wdio\\utils\\build\\index.js:1013:20)\n    at Context.testFrameworkFnWrapper (D:\\Work\\forLQ\\node_modules\\@wdio\\utils\\build\\index.js:1084:14)"
+            "stack": "Error: Expect  to have text\n\nExpected: \u001b[32mStringContaining \"Cart is empty\"\u001b[39m\nReceived: \u001b[31m\"Open Menu\u001b[39m\n\u001b[31mSwag Labs\u001b[39m\n\u001b[31mCheckout: Your Information\u001b[39m\n\u001b[31mCancel\u001b[39m\n\u001b[31mTwitter\u001b[39m\n\u001b[31mFacebook\u001b[39m\n\u001b[31mLinkedIn\u001b[39m\n\u001b[31m© 2025 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy\"\u001b[39m\n    at Context.<anonymous> (file:///D:/Work/Testing-of-Swag-Labs/test/specs/taskOne.js:244:43)\n    at Context.executeAsync (D:\\Work\\Testing-of-Swag-Labs\\node_modules\\@wdio\\utils\\build\\index.js:1013:20)\n    at Context.testFrameworkFnWrapper (D:\\Work\\Testing-of-Swag-Labs\\node_modules\\@wdio\\utils\\build\\index.js:1084:14)"
           }
         }
       ],
       "hooks": [
         {
-          "start": "2025-01-20T11:11:14.460Z",
-          "end": "2025-01-20T11:11:14.463Z",
-          "duration": 3,
-          "title": "\"before all\" hook for My Login application",
+          "start": "2025-01-22T20:38:47.653Z",
+          "end": "2025-01-22T20:38:48.107Z",
+          "duration": 454,
+          "title": "\"before each\" hook for My Login application",
+          "associatedSuite": "My Login application"
+        },
+        {
+          "start": "2025-01-22T20:38:48.588Z",
+          "end": "2025-01-22T20:38:48.685Z",
+          "duration": 97,
+          "title": "\"before each\" hook for My Login application",
+          "associatedSuite": "My Login application"
+        },
+        {
+          "start": "2025-01-22T20:38:49.049Z",
+          "end": "2025-01-22T20:38:49.193Z",
+          "duration": 144,
+          "title": "\"before each\" hook for My Login application",
+          "associatedSuite": "My Login application"
+        },
+        {
+          "start": "2025-01-22T20:38:49.567Z",
+          "end": "2025-01-22T20:38:49.654Z",
+          "duration": 87,
+          "title": "\"before each\" hook for My Login application",
+          "associatedSuite": "My Login application"
+        },
+        {
+          "start": "2025-01-22T20:38:50.111Z",
+          "end": "2025-01-22T20:38:50.183Z",
+          "duration": 72,
+          "title": "\"before each\" hook for My Login application",
+          "associatedSuite": "My Login application"
+        },
+        {
+          "start": "2025-01-22T20:38:51.032Z",
+          "end": "2025-01-22T20:38:51.111Z",
+          "duration": 79,
+          "title": "\"before each\" hook for My Login application",
+          "associatedSuite": "My Login application"
+        },
+        {
+          "start": "2025-01-22T20:38:51.613Z",
+          "end": "2025-01-22T20:38:51.709Z",
+          "duration": 96,
+          "title": "\"before each\" hook for My Login application",
+          "associatedSuite": "My Login application"
+        },
+        {
+          "start": "2025-01-22T20:38:58.405Z",
+          "end": "2025-01-22T20:38:58.489Z",
+          "duration": 84,
+          "title": "\"before each\" hook for My Login application",
+          "associatedSuite": "My Login application"
+        },
+        {
+          "start": "2025-01-22T20:38:59.505Z",
+          "end": "2025-01-22T20:38:59.585Z",
+          "duration": 80,
+          "title": "\"before each\" hook for My Login application",
           "associatedSuite": "My Login application"
         }
       ]
     }
   ],
   "specs": [
-    "file:///D:/Work/forLQ/test/specs/taskOne.js"
+    "file:///D:/Work/Testing-of-Swag-Labs/test/specs/taskOne.js"
   ],
   "state": {
     "passed": 8,
